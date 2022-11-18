@@ -1,5 +1,9 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }

@@ -5,14 +5,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 98px 250px;
+  padding: 98px 200px;
   gap: 48px;
 }
 .divMain {
-  width: 50%;
+  width: 45%;
 }
 .divLogo {
-  width: 50%;
+  width: 55%;
 }
 
 .logo_titulo {
