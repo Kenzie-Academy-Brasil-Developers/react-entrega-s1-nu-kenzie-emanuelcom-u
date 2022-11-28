@@ -1,0 +1,54 @@
+.main {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 98px 200px;
+  gap: 48px;
+}
+.divMain {
+  width: 45%;
+}
+.divLogo {
+  width: 55%;
+}
+
+.logo_titulo {
+  width: 122.68px;
+  height: 19.53px;
+  margin-bottom: 30px;
+}
+.logo {
+  width: 100%;
+}
+.titulo {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 48px;
+  margin: 0 0 30px 0;
+  max-width: 347px;
+}
+.sub_titulo {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.botao_iniciar {
+  background-color: #fd377e;
+  width: 241px;
+  height: 48px;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  padding: 13px 20px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  cursor: pointer;
+}
