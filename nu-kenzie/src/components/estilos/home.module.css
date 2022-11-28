@@ -182,12 +182,12 @@ select {
   justify-content: space-between;
   align-items: center;
 }
-.main_list ul {
+.main_list div  {
   display: flex;
-  list-style: none;
   gap: 16px;
+  margin-bottom: 27px;
 }
-.main_list ul li {
+.main_list span {
   padding: 10px 15px;
   background: #e9ecef;
   border: 1.4px solid #e9ecef;
@@ -210,4 +210,76 @@ select {
 .div_ul_card,
 .div_ul_card img {
   margin-top: 27px;
+}
+.div_ul_card ul {
+  padding: 0;
+}
+
+.div_ul_card ul > li {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  width: 560px;
+  height: 87px;
+  padding: 8px 18px 11px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 4px solid #e9ecef;
+}
+.div_ul_card ul > .entrada {
+  border-left: 4px solid #03b898;
+}
+.div_ul_card ul > li div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div_ul_card ul > li div:last-child {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.div_ul_card ul > li div:last-child img {
+  margin: 0;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.cardTotal {
+  width: 363px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 18px 24.5px;
+  margin-top: 16px;
+}
+.cardTotal div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cardTotal h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #212529;
+}
+.cardTotal p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  color: #343a40;
+}
+.cardTotal span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #fd377e;
 }

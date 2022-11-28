@@ -1,11 +1,17 @@
 import logo from "../../../img/Nu Kenzie home.svg";
 import styles from "../../estilos/home.module.css";
 
-export function Cabecalho() {
+export function Cabecalho({ setIsLogin }) {
   return (
     <div className={styles.cabecalho}>
       <img src={logo} alt="" srcset="" />
-      <input type="button" value="Inicio" />
+      <input
+        onClick={() => {
+          setIsLogin(false);
+        }}
+        type="button"
+        value="Inicio"
+      />
     </div>
   );
 }
