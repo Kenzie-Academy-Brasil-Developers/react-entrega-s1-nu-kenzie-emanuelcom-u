@@ -1,5 +1,5 @@
-import styles from "../../estilos/inicial.module.css";
-import illustration from "../../../img/illustration.svg";
+import styles from "./inicial.module.css";
+import illustration from "./../../img/illustration.svg";
 
 
 export function Logo() {

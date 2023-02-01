@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../../estilos/home.module.css";
+import styles from "./home.module.css";
 
 export const Formulario = ({ setLista, lista }) => {
   const [inputDescricao, setInputDescricao] = useState("");

@@ -1,5 +1,5 @@
-import logo from "../../../img/Nu Kenzie home.svg";
-import styles from "../../estilos/home.module.css";
+import logo from "./../../img/Nu Kenzie home.svg";
+import styles from "./home.module.css";
 
 export function Cabecalho({ setIsLogin }) {
   return (

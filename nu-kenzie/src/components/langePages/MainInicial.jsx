@@ -1,5 +1,5 @@
-import styles from "../../estilos/inicial.module.css";
-import NuKenzie from "../../../img/Nu Kenzie.svg";
+import styles from "./inicial.module.css";
+import NuKenzie from "./../../img/Nu Kenzie.svg";
 
 export function MainIniciar({ setIsLogin }) {
   return (

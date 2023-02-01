@@ -1,7 +1,7 @@
 import { useState } from "react";
-import styles from "../../estilos/home.module.css";
-import NoCard from "../../../img/NoCard.svg";
-import lixaira from "../../../img/lixaira.svg";
+import styles from "./home.module.css";
+import NoCard from "./../../img/NoCard.svg";
+import lixaira from "./../../img/lixaira.svg";
 
 export const List = ({ lista, setLista }) => {
   const [filterList, setFilterList] = useState("");
